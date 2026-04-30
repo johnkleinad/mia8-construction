@@ -4,9 +4,10 @@ import type { Service } from '../../data/services'
 interface ServiceCardProps {
   service: Service
   index: number
+  className?: string
 }
 
-export function ServiceCard({ service, index }: ServiceCardProps) {
+export function ServiceCard({ service, index, className = '' }: ServiceCardProps) {
   const Icon = service.icon
 
   return (
@@ -15,7 +16,7 @@ export function ServiceCard({ service, index }: ServiceCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.3, delay: index * 0.05 }}
-      className="group bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+      className={`group bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 ${className}`}
     >
       <div className="relative aspect-[4/3] overflow-hidden">
         <img

@@ -1,7 +1,6 @@
-import { motion } from 'motion/react'
-import type { AnchorHTMLAttributes } from 'react'
+import { motion, type HTMLMotionProps } from 'motion/react'
 
-interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+interface ButtonProps extends HTMLMotionProps<'a'> {
   variant?: 'gold' | 'outline'
 }
 
@@ -20,7 +19,7 @@ export function Button({ variant = 'gold', className = '', children, ...props }:
       whileTap={{ scale: 0.98 }}
       transition={{ duration: 0.15 }}
       className={`${base} ${variants[variant]} ${className}`}
-      {...(props as object)}
+      {...props}
     >
       {children}
     </motion.a>
