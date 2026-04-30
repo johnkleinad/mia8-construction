@@ -28,8 +28,18 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 h-16 md:h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="/" aria-label="Mia 8 Constructions — Home">
-          <img src="/logo.svg" alt="Mia 8 Constructions" height={48} width={70} className="h-10 w-auto" />
+        <a href="/" aria-label="Mia 8 Constructions — Home" className="flex items-center gap-3">
+          <img
+            src="/logo.svg"
+            alt=""
+            aria-hidden="true"
+            height={48}
+            width={70}
+            className="h-10 w-auto"
+          />
+          <span className="hidden md:block font-cinzel font-bold text-lg text-gold-deco tracking-wider leading-tight">
+            Mia 8 Constructions
+          </span>
         </a>
 
         {/* Desktop nav */}
