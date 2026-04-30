@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Josefin+Sans:wght@300;400;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-dark:         #1C1917;
+  --color-dark-deeper:  #0C0A09;
+  --color-dark-mid:     #292524;
+  --color-light:        #FAFAF9;
+  --color-gold:         #A16207;
+  --color-gold-deco:    #CA8A04;
+  --color-silver:       #94A3B8;
+  --color-muted-dark:   #44403C;
+  --color-border-light: #E8E5E1;
+
+  /* Fonts */
+  --font-cinzel:  'Cinzel', serif;
+  --font-josefin: 'Josefin Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-josefin);
+  background-color: #1C1917;
+  color: #FAFAF9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100dvh;
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid #A16207;
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
