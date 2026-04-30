@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin } from 'lucide-react'
 import { motion } from 'motion/react'
-import { COMPANY_NAME, PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from '../lib/constants'
+import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from '../lib/constants'
 import { services } from '../data/services'
 
 export function OnePager() {
@@ -8,9 +8,7 @@ export function OnePager() {
     <main className="min-h-dvh bg-dark flex flex-col overflow-hidden">
       {/* Header bar */}
       <header className="flex items-center justify-between px-6 py-4 border-b border-muted-dark/40 shrink-0">
-        <span className="font-cinzel font-bold text-lg text-gold-deco tracking-wider">
-          {COMPANY_NAME}
-        </span>
+        <img src="/logo.svg" alt="Mia 8 Constructions" height={48} width={70} className="h-10 w-auto" />
         <a
           href={PHONE_HREF}
           className="flex items-center gap-2 font-josefin font-semibold text-sm text-white hover:text-gold-deco transition-colors"
