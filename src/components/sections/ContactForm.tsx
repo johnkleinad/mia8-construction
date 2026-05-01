@@ -5,7 +5,7 @@ export function ContactForm() {
     <SectionWrapper id="contact-form" className="bg-dark">
       <div className="max-w-2xl mx-auto text-center mb-10">
         <h2 className="font-cinzel font-semibold text-4xl md:text-5xl text-gold-deco mb-4">
-          Get in Touch
+          Contact Us
         </h2>
         <div className="w-10 h-0.5 bg-gold mx-auto mb-6" aria-hidden="true" />
         <p className="font-josefin font-light text-base text-silver leading-relaxed">
