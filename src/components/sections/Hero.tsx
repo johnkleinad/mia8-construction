@@ -1,4 +1,5 @@
-import { motion } from 'motion/react'
+import { motion, useScroll, useTransform } from 'motion/react'
+import { useRef } from 'react'
 import { Phone, Mail } from 'lucide-react'
 import { Badge } from '../ui/Badge'
 import { Button } from '../ui/Button'
@@ -7,16 +8,24 @@ import { PHONE, PHONE_HREF, EMAIL_HREF } from '../../lib/constants'
 const HERO_IMAGE = 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80'
 
 export function Hero() {
+  const sectionRef = useRef<HTMLElement>(null)
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ['start start', 'end start'],
+  })
+  const imageY = useTransform(scrollYProgress, [0, 1], ['0%', '30%'])
+
   return (
-    <section className="relative min-h-dvh flex items-center justify-center bg-dark overflow-hidden">
-      {/* Background image */}
-      <img
+    <section ref={sectionRef} className="relative min-h-dvh flex items-center justify-center bg-dark overflow-hidden">
+      {/* Background image with parallax */}
+      <motion.img
         src={HERO_IMAGE}
         alt=""
         aria-hidden="true"
         width={1600}
         height={900}
-        className="absolute inset-0 w-full h-full object-cover"
+        style={{ y: imageY }}
+        className="absolute inset-x-0 -top-[10%] w-full h-[120%] object-cover will-change-transform"
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
