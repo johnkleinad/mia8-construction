@@ -29,7 +29,7 @@ export function Hero() {
           transition={{ duration: 0.4, delay: 0.1 }}
         >
           <Badge className="mb-8">
-            Point Roberts · Whatcom County, WA
+            Whatcom County, WA · Point Roberts
           </Badge>
         </motion.div>
 

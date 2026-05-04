@@ -5,16 +5,16 @@ import { Badge } from '../ui/Badge'
 
 const LOCATION_CARDS = [
   {
-    name: 'Point Roberts, WA',
-    description:
-      'An exclave community accessible by land only through Canada. We are one of the few contractors who reliably serve Point Roberts residents.',
-    highlight: true,
-  },
-  {
     name: 'Whatcom County, WA',
     description:
       'Serving homeowners and property owners throughout Whatcom County with quality construction services.',
     highlight: false,
+  },
+  {
+    name: 'Point Roberts, WA',
+    description:
+      'An exclave community accessible by land only through Canada. We are one of the few contractors who reliably serve Point Roberts residents.',
+    highlight: true,
   },
 ]
 
