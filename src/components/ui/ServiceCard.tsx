@@ -54,7 +54,7 @@ export function ServiceCard({ service, index, className = '' }: ServiceCardProps
           >
             <Icon size={18} strokeWidth={1.75} />
           </span>
-          <h3 className="font-cinzel text-base text-dark-deeper leading-tight line-clamp-2 min-h-[2.5rem]">
+          <h3 className="font-cinzel text-sm text-dark-deeper leading-tight line-clamp-2 min-h-[2.5rem]">
             {service.name}
           </h3>
         </div>
