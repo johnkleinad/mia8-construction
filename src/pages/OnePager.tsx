@@ -8,7 +8,7 @@ export function OnePager() {
     <main className="min-h-dvh bg-dark flex flex-col overflow-hidden">
       {/* Header bar */}
       <header className="flex items-center justify-between px-6 py-4 border-b border-muted-dark/40 shrink-0">
-        <img src="/logo.svg" alt="Mia 8 Constructions" height={48} width={70} className="h-10 w-auto" />
+        <img src="/logo.svg" alt="Mia8 Construction, Inc." height={48} width={70} className="h-10 w-auto" />
         <a
           href={PHONE_HREF}
           className="flex items-center gap-2 font-josefin font-semibold text-sm text-white hover:text-gold-deco transition-colors"

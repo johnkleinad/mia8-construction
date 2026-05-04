@@ -38,7 +38,7 @@ export function Navbar() {
             className="h-10 w-auto"
           />
           <span className="hidden md:block font-cinzel font-bold text-lg text-gold-deco tracking-wider leading-tight">
-            Mia 8 Constructions
+            Mia8 Construction, Inc.
           </span>
         </a>
 

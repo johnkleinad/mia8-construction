@@ -31,7 +31,7 @@ export function WhyUs() {
         className="text-center mb-14"
       >
         <h2 className="font-cinzel font-semibold text-4xl md:text-5xl text-gold-deco mb-4">
-          Why Mia 8 Constructions
+          Why Mia8 Construction, Inc.
         </h2>
         <div className="w-10 h-0.5 bg-gold mx-auto" aria-hidden="true" />
       </motion.div>
