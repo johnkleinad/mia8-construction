@@ -5,7 +5,7 @@ import { Badge } from '../ui/Badge'
 import { Button } from '../ui/Button'
 import { PHONE, PHONE_HREF, EMAIL_HREF } from '../../lib/constants'
 
-const HERO_IMAGE = 'https://plus.unsplash.com/premium_photo-1770303711918-1bc7c2ba4419?q=80&w=1568&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+const HERO_IMAGE = 'https://images.unsplash.com/photo-1601074231509-dce351c05199?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=ryunosuke-kikuno-d3vp0M7oT6c-unsplash.jpg'
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
