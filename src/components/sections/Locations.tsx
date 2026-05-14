@@ -7,13 +7,19 @@ const LOCATION_CARDS = [
   {
     name: 'Whatcom County, WA',
     description:
-      'Serving homeowners and property owners throughout Whatcom County with quality construction services.',
+      'Serving homeowners, property managers, and business owners throughout Whatcom County with quality construction services.',
+    highlight: false,
+  },
+  {
+    name: 'Skagit County, WA',
+    description:
+      'Residential and commercial construction services for communities across Skagit County — from Mount Vernon to Anacortes.',
     highlight: false,
   },
   {
     name: 'Point Roberts, WA',
     description:
-      'An exclave community accessible by land only through Canada. We are one of the few contractors who reliably serve Point Roberts residents.',
+      'An exclave community accessible by land only through Canada. We are one of the few contractors who reliably serve Point Roberts homes and businesses.',
     highlight: true,
   },
 ]
@@ -35,14 +41,14 @@ export function Locations() {
           <div className="w-10 h-0.5 bg-gold-deco mx-auto mb-6" aria-hidden="true" />
           <p className="font-josefin font-light text-base text-muted-dark leading-relaxed">
             Point Roberts is a unique community that deserves reliable, local contractors.
-            We are proud to be a dependable choice for homeowners in this exceptional
-            part of Washington State — providing the same quality and commitment we bring
-            to all of Whatcom County.
+            We are proud to be a dependable choice for homeowners and business owners in
+            this exceptional part of Washington State — providing the same quality and
+            commitment we bring to all of Whatcom and Skagit Counties.
           </p>
         </motion.div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {LOCATION_CARDS.map(({ name, description, highlight }, i) => (
           <motion.div
             key={name}

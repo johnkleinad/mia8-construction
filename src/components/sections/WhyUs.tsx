@@ -6,12 +6,12 @@ const PILLARS = [
   {
     icon: MapPin,
     title: 'Local Expertise',
-    body: 'Proud to serve Whatcom County & Point Roberts, WA. We know the area, the climate, and the community.',
+    body: 'Proud to serve Whatcom County, Skagit County & Point Roberts, WA. We know the area, the climate, and the community — whether it’s a family home or a local business.',
   },
   {
     icon: Star,
     title: 'Quality Craftsmanship',
-    body: 'Every project done right, on time. We stand behind our work with lasting results you can count on.',
+    body: 'Every project done right, on time. From single-room remodels to commercial build-outs, we stand behind our work with lasting results.',
   },
   {
     icon: DollarSign,

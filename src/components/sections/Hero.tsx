@@ -38,7 +38,7 @@ export function Hero() {
           transition={{ duration: 0.4, delay: 0.1 }}
         >
           <Badge className="mb-8">
-            Whatcom County, WA · Point Roberts
+            Whatcom · Skagit · Point Roberts, WA
           </Badge>
         </motion.div>
 
@@ -59,8 +59,8 @@ export function Hero() {
           transition={{ duration: 0.4, delay: 0.3 }}
           className="font-josefin font-light text-lg md:text-xl text-silver leading-relaxed mb-10 max-w-2xl mx-auto"
         >
-          Roofing, siding, painting, flooring & decks — trusted contractors
-          in Whatcom County and Point Roberts, WA.
+          Roofing, siding, painting, flooring & decks for homes and businesses —
+          trusted contractors across Whatcom County, Skagit County, and Point Roberts, WA.
         </motion.p>
 
         <motion.div

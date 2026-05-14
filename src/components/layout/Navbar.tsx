@@ -37,8 +37,13 @@ export function Navbar() {
             width={70}
             className="h-16 w-auto"
           />
-          <span className="hidden md:block font-cinzel font-bold text-lg text-gold-deco tracking-wider leading-tight">
-            Mia8 Construction, Inc.
+          <span className="hidden md:flex flex-col leading-tight">
+            <span className="font-cinzel font-bold text-lg text-gold-deco tracking-wider">
+              Mia8 Construction, Inc.
+            </span>
+            <span className="font-josefin font-light text-[10px] text-silver tracking-[0.25em] uppercase mt-0.5">
+              Residential · Commercial
+            </span>
           </span>
         </a>
 

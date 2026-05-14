@@ -26,7 +26,7 @@ export function CTABanner() {
           <div className="w-10 h-0.5 bg-gold mx-auto mb-8" aria-hidden="true" />
 
           <p className="font-josefin font-light text-lg text-silver mb-10">
-            Call us for a free estimate. No hidden fees, no surprises.
+            Call us for a free estimate on your home or commercial project — no hidden fees, no surprises.
           </p>
 
           <div className="flex flex-col items-center gap-5">

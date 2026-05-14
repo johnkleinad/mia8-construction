@@ -17,7 +17,10 @@ export function Services() {
         <h2 className="font-cinzel font-semibold text-4xl md:text-5xl text-dark-deeper mb-4">
           Our Services
         </h2>
-        <div className="w-10 h-0.5 bg-gold-deco mx-auto" aria-hidden="true" />
+        <div className="w-10 h-0.5 bg-gold-deco mx-auto mb-6" aria-hidden="true" />
+        <p className="font-josefin font-light text-base text-muted-dark leading-relaxed max-w-xl mx-auto">
+          Residential & commercial construction across Whatcom County, Skagit County, and Point Roberts.
+        </p>
       </motion.div>
 
       {/* Grid */}
