@@ -30,7 +30,7 @@ export function OnePager() {
           className="flex items-center gap-2 text-gold font-josefin font-semibold text-xs tracking-[0.2em] uppercase"
         >
           <MapPin size={12} aria-hidden="true" />
-          Whatcom County, WA · Point Roberts
+          Whatcom · Skagit · Point Roberts, WA
         </motion.div>
 
         {/* Headline */}
@@ -40,8 +40,8 @@ export function OnePager() {
           transition={{ duration: 0.35, delay: 0.05 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-white leading-tight max-w-xl"
         >
-          Your Local Contractor in
-          <span className="text-gold-deco"> Whatcom County</span> &amp; Point Roberts
+          Your Local Contractor for
+          <span className="text-gold-deco"> Homes &amp; Businesses</span> in Whatcom, Skagit &amp; Point Roberts
         </motion.h1>
 
         {/* Services grid */}

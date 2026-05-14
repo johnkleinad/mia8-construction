@@ -9,7 +9,7 @@ export function ContactForm() {
         </h2>
         <div className="w-10 h-0.5 bg-gold mx-auto mb-6" aria-hidden="true" />
         <p className="font-josefin font-light text-base text-silver leading-relaxed">
-          Fill out the form below and we'll get back to you as soon as possible.
+          Tell us about your home or commercial project and we'll get back to you as soon as possible.
         </p>
       </div>
 
@@ -46,6 +46,33 @@ export function ContactForm() {
             className="w-full px-4 py-3 bg-dark-mid border border-muted-dark/60 font-josefin font-light text-base text-white placeholder:text-muted-dark focus:outline-none focus:border-gold transition-colors duration-150"
           />
         </div>
+
+        <fieldset className="flex flex-col gap-3">
+          <legend className="font-josefin font-semibold text-xs text-silver tracking-[0.15em] uppercase mb-1">
+            Project Type
+          </legend>
+          <div className="flex flex-wrap gap-6">
+            <label className="flex items-center gap-2 font-josefin font-light text-sm text-silver cursor-pointer">
+              <input
+                type="radio"
+                name="projectType"
+                value="residential"
+                defaultChecked
+                className="accent-gold-deco"
+              />
+              Residential
+            </label>
+            <label className="flex items-center gap-2 font-josefin font-light text-sm text-silver cursor-pointer">
+              <input
+                type="radio"
+                name="projectType"
+                value="commercial"
+                className="accent-gold-deco"
+              />
+              Commercial
+            </label>
+          </div>
+        </fieldset>
 
         <div className="flex flex-col gap-2">
           <label htmlFor="contact-message" className="font-josefin font-semibold text-xs text-silver tracking-[0.15em] uppercase">

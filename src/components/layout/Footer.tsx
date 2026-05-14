@@ -68,7 +68,7 @@ export function Footer() {
         </div>
 
         <p className="mt-8 text-center font-josefin font-light text-xs text-muted-dark tracking-wide">
-          © {new Date().getFullYear()} {COMPANY_NAME}. Whatcom County & Point Roberts, WA. All rights reserved.
+          © {new Date().getFullYear()} {COMPANY_NAME}. Residential & Commercial · Whatcom County, Skagit County & Point Roberts, WA. All rights reserved.
         </p>
       </div>
     </footer>
