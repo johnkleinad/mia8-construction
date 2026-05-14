@@ -47,6 +47,22 @@ export function ContactForm() {
           />
         </div>
 
+        <div className="flex flex-col gap-2">
+          <label htmlFor="contact-email" className="font-josefin font-semibold text-xs text-silver tracking-[0.15em] uppercase">
+            Email <span aria-hidden="true" className="text-gold">*</span>
+          </label>
+          <input
+            id="contact-email"
+            type="email"
+            name="email"
+            autoComplete="email"
+            required
+            aria-required="true"
+            placeholder="you@example.com"
+            className="w-full px-4 py-3 bg-dark-mid border border-muted-dark/60 font-josefin font-light text-base text-white placeholder:text-muted-dark focus:outline-none focus:border-gold transition-colors duration-150"
+          />
+        </div>
+
         <fieldset className="flex flex-col gap-3">
           <legend className="font-josefin font-semibold text-xs text-silver tracking-[0.15em] uppercase mb-1">
             Project Type
