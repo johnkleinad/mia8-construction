@@ -48,9 +48,9 @@ export function Hero() {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="font-cinzel font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6"
         >
-          Built to Last.
+          Where Excellence
           <br />
-          <span className="text-gold-deco">Built for You.</span>
+          <span className="text-gold-deco">is Bound by Loyalty</span>
         </motion.h1>
 
         <motion.p
