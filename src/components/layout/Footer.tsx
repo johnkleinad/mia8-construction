@@ -19,6 +19,9 @@ export function Footer() {
                   {s.name}
                 </li>
               ))}
+              <li className="font-josefin font-light text-sm text-gold-deco pt-2 border-t border-muted-dark/30 mt-2">
+                Residential & Commercial
+              </li>
             </ul>
           </div>
 
